@@ -1,0 +1,14 @@
+package basicInputOutput.controller;
+
+public class BasicIOController 
+{
+	private String firstName;
+	private String lastName;
+	
+	
+	public void printGreeting()
+	{
+		
+		System.out.println(firstName + " " + lastName);
+	}
+}

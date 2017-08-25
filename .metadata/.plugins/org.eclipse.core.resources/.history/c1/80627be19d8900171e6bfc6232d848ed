@@ -1,0 +1,24 @@
+package basicInputOutput.controller;
+
+public class BasicIOController 
+{
+	private String firstName = "";
+	private String lastName = "";
+	
+	/*
+	 * Constructor for BasicIOController class
+	 * @param first 
+	 * @param last 
+	 *
+	 */
+	public BasicIOController(String first, String last)
+	{
+		firstName = first;
+		lastName = last;
+	}
+	
+	public void printGreeting()
+	{
+		System.out.println("Hello " + firstName + " " + lastName);
+	}
+}
