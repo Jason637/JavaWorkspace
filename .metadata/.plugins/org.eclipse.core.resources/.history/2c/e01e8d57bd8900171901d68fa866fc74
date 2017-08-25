@@ -6,17 +6,13 @@ public class BasicIOController
 	private String firstName = "";
 	private String lastName = "";
 	
-	/**
-	 * Allows user to provide a name to be used in other methods
-	 * @param first name
-	 * @param last name
-	 */
+
 	public BasicIOController(String first, String last)
 	{
 		firstName = first; 
 		lastName = last;
 	}
-	/**
+	/*
 	 *Prints a greeting
 	 *
 	 *@param void
