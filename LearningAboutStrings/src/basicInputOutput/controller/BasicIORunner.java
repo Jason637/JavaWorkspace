@@ -7,7 +7,6 @@ public class BasicIORunner
 	{
 		BasicIOController myGreeting = new BasicIOController("John", "Doe");
 		myGreeting.printGreeting();
-
 	}
 
 }
