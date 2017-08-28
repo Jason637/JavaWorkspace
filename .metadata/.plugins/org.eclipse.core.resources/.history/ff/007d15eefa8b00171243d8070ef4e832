@@ -1,0 +1,5 @@
+package studentManagement.model;
+
+public class Student {
+
+}
