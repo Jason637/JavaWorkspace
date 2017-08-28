@@ -20,16 +20,7 @@ public class Student
 		age = 0;
 		gpa = 0.0;		
 	}
-	/**Overloaded constructor
-	 * 
-	 * @param isCurrentStudent
-	 * @param gradeLevel
-	 * @param idNumber
-	 * @param name
-	 * @param gender
-	 * @param age
-	 * @param gpa
-	 */
+	
 	public Student(boolean isCurrentStudent, int gradeLevel, String idNumber, String name, String gender, int age, double gpa)
 	{
 		this.isCurrentStudent = isCurrentStudent;
@@ -40,9 +31,7 @@ public class Student
 		this.age = age;
 		this.gpa = gpa;
 	}
-	/**
-	 * @return String description of class
-	 */
+	
 	public String toString()
 	{
 		String str = "";
