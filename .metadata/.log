@@ -312,6 +312,7 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.e4.ui.workbench 2 0 2017-08-25 08:29:34.519
 !MESSAGE Removing part descriptor with the 'org.eclipse.eclemma.ui.CoverageView' id and the 'Coverage' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+<<<<<<< HEAD
 !SESSION 2017-08-28 08:32:07.602 -----------------------------------------------
 eclipse.buildId=4.6.3.M20170301-0400
 java.version=1.8.0_144
@@ -593,3 +594,18 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+=======
+!SESSION 2017-08-25 12:38:39.903 -----------------------------------------------
+eclipse.buildId=4.7.0.I20170612-0950
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/stephengoebel/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/stephengoebel/.eclipse_keyring
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-08-25 12:38:51.452
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.core.net 1 0 2017-08-25 12:38:53.169
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+>>>>>>> eb8c63f9b3d92bb56046246b4fcd45b36d63c7d8

@@ -6,13 +6,28 @@ public class BasicIOController
 	private String firstName = "";
 	private String lastName = "";
 	
-
-	public BasicIOController(String first, String last)
+	/**
+	 * Allows user to provide a name to be used in other methods
+	 * @param firstName First name
+	 * @param lastName Last name
+	 */
+	public BasicIOController(String firstName , String lastName)
 	{
-		firstName = first; 
-		lastName = last;
+		this.firstName = firstName; 
+		this.lastName = lastName;
 	}
 	
+	@Override
+	public String toString()
+	{
+		return firstName + " " + lastName; 
+	}
+	/**
+	 *Prints a greeting
+	 *
+	 *@param 
+	 *@return 
+	 */
 	public void printGreeting()
 	{
 		System.out.println("Hello " + firstName + " " + lastName);
